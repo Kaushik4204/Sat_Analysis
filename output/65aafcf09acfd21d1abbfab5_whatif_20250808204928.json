@@ -1,0 +1,13 @@
+{
+  "student_id": "65aafcf09acfd21d1abbfab5",
+  "current_scores": {
+    "math": 200,
+    "english": 200,
+    "total": 400
+  },
+  "recommendation_summary": {
+    "total_possible_gain": 0,
+    "top_topics_by_impact": []
+  },
+  "recommendations": []
+}
