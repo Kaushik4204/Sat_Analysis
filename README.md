@@ -65,3 +65,47 @@ SAT_Analysis/
 ├── requirements.txt # Python dependencies
 
 └── README.md 
+
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. 🔧 Prerequisites
+
+- Python 3.8+
+- [MongoDB](https://www.mongodb.com/try/download/community) installed locally
+- Git installed
+
+### 2. 📦 Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. 🗃️ Import data into MongoDB
+
+# Start MongoDB service (if not running)
+```bash
+mongod --dbpath /path/to/your/mongodb/data
+```
+
+# Then run:
+```bash
+python db/insert_sample_data.py
+```
+
+This will populate:
+
+sat_analysis.student_results with student attempts
+
+sat_analysis.scoring_model with the SAT scoring table
+
+### 4. Run the analysis
+```bash
+python main.py
+```
+This generates what-if analysis JSONs per student in the output/ folder.
+
+
+
