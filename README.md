@@ -107,5 +107,14 @@ python main.py
 ```
 This generates what-if analysis JSONs per student in the output/ folder.
 
+## Testing (Optional)
+To test logic for multiple students:
+```bash
+python tests/test_students.py
+```
 
+### 🤝 Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss the change.
 
+### 🙌 Acknowledgements
+This project was built as part of a technical assessment by HighScores.ai
